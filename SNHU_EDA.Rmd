@@ -55,7 +55,7 @@ logic side of the equation vs. the underlying programming, I will show
 output only and will leave a link below to the code for those who may
 want to review.
 
-<https://github.com/JesseNormand/snhu>
+<https://github.com/JesseNormand/snhu/blob/main/SNHU_EDA.Rmd>
 
 ## EDA
 
