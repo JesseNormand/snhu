@@ -1,0 +1,19 @@
+SELECT  
+
+COUNT(Success) Student_Success,
+CurrentLearnerSegment,
+Term,
+
+FROM SNHU.enrollment a
+
+INNER JOIN SNHU.student_list b
+
+ON a.Student_SK = b.Student_SK
+
+WHERE Term = '21EW5'
+
+GROUP BY Success, CurrentLearnerSegment, Term
+
+ORDER BY Student_Success DESC
+
+limit 10
