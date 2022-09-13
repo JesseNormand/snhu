@@ -1,0 +1,11 @@
+SELECT
+
+Course,CourseAverageGrade,
+
+FROM SNHU.enrollment
+
+WHERE Term = '21EW6'
+
+GROUP BY Course, CourseAverageGrade
+
+ORDER BY CourseAverageGrade DESC
